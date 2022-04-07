@@ -3,7 +3,7 @@ import express, {Request, Response} from "express";
 import cors from "cors";
 import swagger from "../../swagger";
 import photos from "../rutas/photos";
-import posts from "../rutas/photos";
+import posts from "../rutas/posts";
 
 //Aca guardo la ejecucion de express en la variable
 const server = express();
